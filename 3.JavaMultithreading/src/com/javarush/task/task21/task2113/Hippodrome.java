@@ -1,19 +1,19 @@
 package com.javarush.task.task21.task2113;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created by saneok on 18.06.17.
  */
 public class Hippodrome {
 
-    private List<Horse> horses;
+    private ArrayList<Horse> horses;
 
-    public Hippodrome (List<Horse> horses) {
+    public Hippodrome (ArrayList<Horse> horses) {
         this.horses = horses;
     }
 
-    public List getHorses() {
+    public ArrayList getHorses() {
         return horses;
     }
 
